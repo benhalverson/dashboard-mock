@@ -14,20 +14,20 @@ import { AccountInfoComponent } from './components/account-info/account-info.com
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
-    AppComponent,
-    AccountSummaryComponent,
     AccountChartComponent,
-    AccountTransactionsComponent,
+    AccountInfoComponent,
     AccountPaymentsComponent,
-    SidebarComponent,
-    AccountInfoComponent
+    AccountSummaryComponent,
+    AccountTransactionsComponent,
+    AppComponent,
+    SidebarComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule,
-    FontAwesomeModule
+    BrowserModule,
+    FontAwesomeModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
