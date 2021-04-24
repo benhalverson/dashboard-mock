@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import {
-  faHome,
+  faCog,
   faCreditCard,
-  faStickyNote,
-  faEnvelope,
-  faSitemap,
-  faUsers,
   faDatabase,
-  faCog
+  faEnvelope,
+  faHome,
+  faSitemap,
+  faStickyNote,
+  faUsers
 } from '@fortawesome/free-solid-svg-icons';
 import { faCcAmex } from '@fortawesome/free-brands-svg-icons';
 
