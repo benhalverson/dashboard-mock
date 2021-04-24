@@ -11,6 +11,7 @@ import { AccountTransactionsComponent } from './components/account-transactions/
 import { AccountPaymentsComponent } from './components/account-payments/account-payments.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { AccountInfoComponent } from './components/account-info/account-info.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { AccountInfoComponent } from './components/account-info/account-info.com
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
