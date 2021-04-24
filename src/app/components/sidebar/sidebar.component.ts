@@ -17,13 +17,13 @@ import { faCcAmex } from '@fortawesome/free-brands-svg-icons';
   styleUrls: ['./sidebar.component.scss']
 })
 export class SidebarComponent {
-  faHome = faHome;
-  faCreditCard = faCreditCard;
-  faStickyNote = faStickyNote;
-  faEnvelope = faEnvelope;
   faCcAmex = faCcAmex;
-  faSitemap = faSitemap;
-  faUsers = faUsers;
-  faDatabase = faDatabase;
   faCog = faCog;
+  faCreditCard = faCreditCard;
+  faDatabase = faDatabase;
+  faEnvelope = faEnvelope;
+  faHome = faHome;
+  faSitemap = faSitemap;
+  faStickyNote = faStickyNote;
+  faUsers = faUsers;
 }
